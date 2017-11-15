@@ -1,0 +1,66 @@
+Information Sheet For Course
+
+TEXT
+
+Navigation: 
+About, Skills, Recent Projects, Contact
+
+Intro heading: 
+Richard Johnson, Professional Photographer
+
+About: 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis felis et velit varius aliquet a non ipsum. Quisque tempus euismod volutpat. Proin lectus augue, posuere quis lorem ac, porttitor mattis risus. Praesent at porttitor tortor. Vivamus ut cursus leo, in tempor odio.
+
+Skills:
+Photography, Illustrations, Editing
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis felis et velit varius aliquet a non ipsum. Quisque tempus euismod volutpat.
+
+Recent projects:
+“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis felis et velit varius aliquet a non ipsum. Quisque tempus euismod volutpat. Proin lectus augue, posuere quis lorem ac, porttitor mattis risus. Praesent at porttitor tortor. Vivamus ut cursus leo, in tempor odio.”
+Photos Taken:, Time Spent:, Location:
+Maynard wedding:
+Marry Maynard, Bride
+Linda’s photoshoot:
+Linda Johnson, Model
+National park photoshoot:
+John Treeman, National park director
+
+Contact us:
+Adress, Oak street 293, Los Angeles, United states of America
+Email, info@info.com
+Phone, +(987) 198765432
+Richard Johnson. All rights reserved.
+
+LINKS
+
+Icons:
+http://www.flaticon.com/packs/font-awesome
+
+Images:
+Intro background:
+http://pixabay.com/en/photographer-photo-digital-camera-336537/
+Skills:
+http://pixabay.com/en/camera-photography-vintage-slr-349943/
+http://pixabay.com/en/man-elderly-drawing-senior-old-505353/
+http://pixabay.com/en/keyboard-apple-input-keys-hardware-338505/
+Recent projects background:
+http://pixabay.com/en/boardwalk-trees-twist-curved-wood-142632/
+http://pixabay.com/en/couple-bride-love-wedding-bench-260899/
+http://pixabay.com/en/girl-photoshoot-park-68507/
+Recent project extra images:
+http://pixabay.com/en/forest-forest-path-sun-sunset-458324/
+http://pixabay.com/en/wood-logs-trunks-forest-stack-336547/
+http://pixabay.com/en/forest-evergreen-conifers-sunset-480463/
+http://pixabay.com/en/forest-trees-light-sun-sunbeam-638128/
+http://pixabay.com/en/autumn-fog-forest-194834/
+http://pixabay.com/en/deer-nature-wildlife-natural-tree-417607/
+Contact us:
+http://pixabay.com/en/memories-pictures-photos-407021/
+
+EXTRA INFO
+
+Color codes:
+e2f202, 58b458, c1f5c4, dcffdc, 6e6e6e, aeaeae, e0e0e0, 000000
+
+Fonts used:
+Maven Pro, Lato

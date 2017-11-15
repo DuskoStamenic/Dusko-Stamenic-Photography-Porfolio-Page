@@ -1,0 +1,9 @@
+1. Info Sheet 
+2. Kreirati Style Guide
+3. Pronaci ikonice, i fontove (font awesome i Google fonts)
+4. Dimenzije PSD dokumenta
+5. Dizajniranje Sajta (koristiti precizne mere i alatku ruler)
+6. Slicing (Exportovati slike da budu tih dimenzija kao na dizajniranom obrascu)
+7. Smestiti slike u folder img u pored kojeg ce biti i html, css, js... fajlovi
+8. Kreiram html, css i js fajlove i odmah sve linkujem
+9.  
