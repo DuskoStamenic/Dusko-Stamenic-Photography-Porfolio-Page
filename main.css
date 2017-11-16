@@ -1,0 +1,82 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+/*General*/
+* {
+        margin: 0;
+        padding: 0;
+}
+
+html {
+        font-size: 16px;
+}
+
+body {
+        font-size: 0.875em;
+        font-family: Lato, Arial, Calibri, sans-serif;
+        background-color: #dcffdc;
+}
+
+h1, h2, h3, h4, h5 {
+        font-family: Maven Pro, Calibri, Arial, sans-serif;
+        font-weight: 400;
+}
+
+h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #58b458;
+}
+
+.clear-fix {
+        display: block;
+        content: "";
+        visibility: hidden;
+        overflow: hidden;
+        width: 0;
+        height: 0;
+        font-size: 0;
+        line-height: 0;
+        clear: both;
+}
+
+.container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+}
+
+.container-sm {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 0 20px;
+}
+
+.button {
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000;
+        font-family: Maven Pro, Calibri, Arial, sans-serif;
+        font-size: 0.875em;
+        padding: 8px 11px;
+        border-radius: 10px;
+        background-color: #e2f202;
+        transition: background-color 0.2s ease, color 0.2 ease;
+        -webkit-transition: background-color 0.2s ease, color 0.2 ease;
+        -moz-transition: background-color 0.2s ease, color 0.2 ease;
+}
+
+.button:hover {
+        background-color: #000;
+        color: #e2f202;
+}
+
+.about, .skills, .recent-projects, .contact-me {
+        padding-top: 100px;
+}
+
+.skills-list-bg, .recent-projects-list-bg {
+        background-color: #c1f5c4;
+}
