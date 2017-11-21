@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5 {
         font-weight: 400;
 }
 
+p {
+        line-height: 1.7em;
+}
+
 h2 {
         font-size: 2em;
         margin-bottom: 20px;
@@ -79,4 +83,126 @@ h2 {
 
 .skills-list-bg, .recent-projects-list-bg {
         background-color: #c1f5c4;
+}
+
+/* NAVIGATION*/
+
+nav {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 0;
+        background-color: rgba(0,0,0, .6);
+        text-align: center;
+        -webkit-transition: -webkit-transform 0.4 ease;
+        -moz-transition: -moz-transform 0.4 ease;
+        transition: transform 0.4 ease;
+}
+
+nav.hidden {
+        -webkit-transform: translate3d(0, -100%, 0);
+        -moz-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+}
+
+nav ul li {
+        display: inline-block;
+        margin-right: 15px;
+}
+
+nav ul li:last-child {
+        margin-right: 0;
+}
+
+nav ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: .875em;
+        color: #fff;
+        font-family: Maven Pro, Calibri, Arial, sans-serif;
+}
+
+/* INTRO*/
+
+.intro {
+        background: #000 url('images/intro.jpg')  no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% 50%;
+        padding-top: 150px;
+        padding-bottom: 120px;
+        text-align: center;
+}
+
+.intro-headings {
+        display: inline-block;
+        text-align: left;
+        margin-bottom: 100px;
+}
+
+.intro-headings h1 {
+        font-size: 1.9em;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 400;
+}
+
+.intro-headings  h4 {
+        color: #aeaeae;
+        text-transform: uppercase;
+        font-family: Lato, Arial, Calibri, sans-serif;
+        font-weight: 300;
+        font-size: 0.8em;
+        letter-spacing: 0.2em;
+}
+
+.intro .continue-btn {
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+        font-size: 1.125em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #e2f202;
+}
+
+/* ABOUT*/
+
+.about {
+        background-color: #58b458;
+        padding-bottom: 70px;
+}
+
+.about h2 {
+        color: #fff;
+}
+
+.about p {
+        color: #e0e0e0;
+}
+
+/* SKILLS*/
+
+.skills-list {
+        list-style: none;
+        text-align: center;
+}
+
+.skill {
+        padding: 50px 0;
+        max-width: 250px;
+        margin: 0 auto;
+}
+
+.skill h5 {
+        font-size: 1.2em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+}
+
+.skill p {
+        color: #6e6e6e;
+        font-size: .875em;
 }
