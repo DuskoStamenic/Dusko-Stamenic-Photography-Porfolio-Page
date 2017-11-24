@@ -127,7 +127,7 @@ nav ul li a {
 /* INTRO*/
 
 .intro {
-        background: #000 url('images/intro.jpg')  no-repeat;
+        background: url('images/intro.jpg')  no-repeat;
         background-attachment: fixed;
         background-size: cover;
         background-position: 50% 50%;
