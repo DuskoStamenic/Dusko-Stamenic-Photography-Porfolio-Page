@@ -33,7 +33,7 @@ h2 {
         color: #58b458;
 }
 
-.clear-fix {
+.clear-fix::after {
         display: block;
         content: "";
         visibility: hidden;
@@ -205,4 +205,129 @@ nav ul li a {
 .skill p {
         color: #6e6e6e;
         font-size: .875em;
+}
+
+/* RECENT PROJECTS*/
+.recent-projects-list.container{
+        padding: 0;
+}
+
+.recent-projects-list {
+        list-style: none;
+}
+
+.visible-content {
+        box-sizing: border-box;
+        height: 310px;
+        padding-top: 20px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+}
+
+.project.travel .visible-content {
+        background-image: url('images/travel.jpg');
+}
+
+.project.nature .visible-content {
+        background-image: url('images/nature.jpg');
+}
+
+.project.street .visible-content {
+        background-image: url('images/street.jpg');
+}
+
+.visible-content h3{
+        font-size: 1.4em;
+        color: #fff;
+        margin-bottom: 10px;
+        text-align: left;
+}
+
+.visible-content blockquote {
+        color: #fff;
+        font-weight: 300;
+        text-align: left;
+}
+
+.quote-author-info {
+        margin: 10px 0 20px 0;
+}
+
+.quote-author-info .quote-author {
+        color: #e2f202;
+        font-size: 1em;
+}
+
+.quote-author-info .quote-author-pos {
+        color: #aeaeae;
+        font-size: .875em;
+}
+
+/*RECENT PROJECTS EXTRA*/
+
+.project-extra {
+        background-color: #58b458;
+}
+
+.project-extra-images {
+        list-style: none;
+        max-width: 690px;
+        margin: 0 auto;
+}
+
+.project-extra-images li {
+        width: 33.333333%;
+        float: left;
+}
+
+.project-extra-images li img {
+        display: block;
+        width: 100%;
+        height: auto;
+}
+
+.project-extra-info {
+        box-sizing: border-box;
+        height: 350px;
+        padding-top: 40px;
+        list-style: none;
+}
+
+.project-extra-info li {
+        margin-bottom: 40px;
+        margin-left: 25%;
+}
+
+.project-extra-info li::after {
+        display: block;
+        content: "";
+        visibility: hidden;
+        overflow: hidden;
+        width: 0;
+        height: 0;
+        font-size: 0;
+        line-height: 0;
+        clear: both;
+}
+
+.project-extra-info li .fa {
+        float: left;
+        margin-right: 30px;
+        padding-top: 5px;
+        font-size: 28px;
+        color: #e0e0e0;
+}
+
+.project-extra-info li .label {
+        float: left;
+        text-transform: uppercase;
+        color: #e0e0e0;
+        font-size: .875em;
+}
+
+.project-extra-info li .label-descr {
+        color: #fff;
+        font-size: 16px;
 }
