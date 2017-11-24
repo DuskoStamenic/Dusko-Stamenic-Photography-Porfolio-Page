@@ -127,7 +127,7 @@ nav ul li a {
 /* INTRO*/
 
 .intro {
-        background: url('images/intro.jpg')  no-repeat;
+        background: #bbb url('images/cover.jpg')  no-repeat;
         background-attachment: fixed;
         background-size: cover;
         background-position: 50% 50%;
@@ -329,5 +329,118 @@ nav ul li a {
 
 .project-extra-info li .label-descr {
         color: #fff;
-        font-size: 16px;
+}
+
+/* CONTACT*/
+.contact-me-bg {
+        background: #000 url('images/contact-me.jpg') no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        padding-top: 100px;
+}
+
+.contact-list {
+        list-style: none;
+}
+
+.contact-list li {
+        text-align: center;
+        margin-bottom: 50px;
+}
+
+.contact-list li .fa, .contact-list li h6 {
+        display: inline-block;
+        vertical-align: middle;
+}
+
+.contact-list li .fa {
+        font-size: 40px;
+        color: #6e6e6e;
+}
+
+.contact-list li h6 {
+        font-size: 1.25em;
+        color: #58b458;
+        font-weight: 400;
+        margin-left: 5px;
+}
+
+.contact-list li p {
+        /*color: #fff;*/
+        margin-top: 15px;
+}
+
+/*GOODLE FORM*/
+
+#mG61Hd {
+        margin-bottom: 60px;
+}
+
+#mG61Hd .exportInput, #mG61Hd .exportTextarea  {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        border: none;
+        border-bottom: 5px solid #58b458;
+        font-size: 1.125em;
+        font-family: Lato, Arial, Calibri, sans-serif;
+        outline: none;
+        background-color: rgba(193, 245, 196, 0.4);
+        margin-bottom: 40px;
+}
+
+#mG61Hd .exportInput {
+        padding: 15px 40px;
+}
+
+#mG61Hd .exportTextarea {
+        padding: 15px 40px;
+}
+
+#mG61Hd .button {
+        border: none;
+        outline: none;
+        cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer {
+        padding-bottom: 40px;
+}
+
+footer p {
+        color: #6e6e6e;
+}
+
+footer .social-btn-list {
+        list-style: none;
+        width: 166px;
+        margin: 0 auto 30px auto;
+}
+
+footer .social-btn-list li {
+        float: left;
+        margin-right: 15px;
+}
+
+footer .social-btn-list li:last-child {
+        float: left;
+        margin-right: 0;
+}
+
+footer .social-btn-list li a {
+        display: block;
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        border-radius: 14px;
+        border: 1px solid #58b458;
+        color: #58b458;
+        text-align: center;
+}
+
+footer .social-btn-list li a:hover {
+        background-color: #58b458;
+        color: #fff;
 }
