@@ -444,3 +444,52 @@ footer .social-btn-list li a:hover {
         background-color: #58b458;
         color: #fff;
 }
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 600px) {
+        body {font-size: 1em;}
+        h2 {font-size: 2.2em;}
+        nav ul li {margin-right: 60px;}
+        nav ul li:last-child {margin-right: 0;}
+        .intro-headings h1 {font-size: 2.5em;}
+        .intro-headings h4 {font-size: 1em; letter-spacing: 0.1em;}
+        .project-extra-info li {margin-left: 30%;}
+}
+
+@media only screen and (min-width: 790px) {
+        .skill {
+                max-width: none;
+                width: 30%;
+                margin-right: 5%;
+                float: left;
+                padding: 100px 0;
+        }
+        .skill:last-child {
+                margin-right: 0;
+        }
+        .skills-list::after, .contact-list::after {
+                display: block;
+                content: "";
+                visibility: hidden;
+                overflow: hidden;
+                width: 0;
+                height: 0;
+                font-size: 0;
+                line-height: 0;
+                clear: both;
+        }
+        .visible-content {
+              padding-top: 50px;
+        }
+        .contact-list {
+                margin-bottom: 100px;
+        }
+        .contact-list li {
+                box-sizing: border-box;
+                width: 33.333333%;
+                padding: 9 20px;
+                float: left;
+        }
+}
