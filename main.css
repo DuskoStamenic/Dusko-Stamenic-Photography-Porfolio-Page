@@ -411,6 +411,7 @@ footer {
 
 footer p {
         color: #6e6e6e;
+        text-align: center;
 }
 
 footer .social-btn-list {
@@ -491,5 +492,132 @@ footer .social-btn-list li a:hover {
                 width: 33.333333%;
                 padding: 9 20px;
                 float: left;
+        }
+        footer .social-btn-list {
+                float: right;
+                margin: 0;
+        }
+        footer p {
+                float: left;
+                padding-top: 7px;
+        }
+        footer::after {
+                display: block;
+                content: "";
+                visibility: hidden;
+                overflow: hidden;
+                width: 0;
+                height: 0;
+                font-size: 0;
+                line-height: 0;
+                clear: both;
+        }
+}
+
+@media only screen and (min-width: 920px) {
+        h2 {font-size: 3.75em;}
+        .container, .container-sm {padding: 0;}
+        .intro {padding-top: 230px;}
+        .intro-headings {margin-bottom: 200px;}
+        .intro-headings  h4 {color: #fff; letter-spacing: 0.38em;}
+        .skill {
+                box-sizing: border-box;
+                width: 33.333333%;
+                height: 400px;
+                margin-right: 0;
+                padding: 120px 25px;
+                position: relative;
+        }
+        /*Pozadina za skillove*/
+        .skill.photogr{
+                background: #000 url('images/intro.jpg') no-repeat;
+                background-position: 50% 50%;
+        }
+
+        .skill.illustr{
+                background: #000 url('images/intro.jpg') no-repeat;
+                background-position: 50% 50%;
+        }
+        .skill.edit{
+                background: #000 url('images/intro.jpg') no-repeat;
+                background-position: 50% 50%;
+        }
+        .skill h5 {
+                font-size: 1.4em;
+                color: #fff;
+        }
+        .skill p {
+                color: #e0e0e0;
+        }
+        .skill .skill-divider {
+                display: block;
+                position: absolute;
+                bottom: 80px;
+                left: 50%;
+                width: 200px;
+                margin-left: -100px;
+                height: 3px;
+                border-radius: 2px;
+                background-color: #58b458;
+        }
+        .visible-content {text-align: left;}
+        .visible-content h3 {font-size: 2.25em;}
+        .visible-content p {padding-left: 60px;}
+        .visible-content blockquote {
+                width: 65%;
+                float: left;
+        }
+        .visible-content .quote-author-info {
+                widows: 35%;
+                float: left;
+                text-align: right;
+        }
+        .project-text-wrapper::after {
+                display: block;
+                content: "";
+                visibility: hidden;
+                overflow: hidden;
+                width: 0;
+                height: 0;
+                font-size: 0;
+                line-height: 0;
+                clear: both;
+        }
+
+        #mG61Hd {
+                width:780px;
+                margin: 0 auto 60px auto;
+        }
+        #mG61Hd .quantumWizTextinputPaperinputInput {
+                float:left;
+                margin-right: 130px;
+        }
+        footer p {
+                margin-left: 60px;
+        }
+        footer .social-btn-list {
+                margin-right: 60px;
+        }
+}
+
+@media only screen and (min-width: 1105px) {
+        .project-extra-images {float: right;}
+        .project-extra-info {
+                float: left;
+                width: 390px;
+        }
+        .project-extra-info li {
+                margin-left: 80px;
+        }
+        .project-extra::after {
+                display: block;
+                content: "";
+                visibility: hidden;
+                overflow: hidden;
+                width: 0;
+                height: 0;
+                font-size: 0;
+                line-height: 0;
+                clear: both;
         }
 }
