@@ -165,7 +165,7 @@ nav ul li a {
         font-size: 1.125em;
         text-transform: uppercase;
         text-decoration: none;
-        color: #e2f202;
+        color: #58b458;
 }
 
 /* ABOUT*/
@@ -188,6 +188,10 @@ nav ul li a {
 .skills-list {
         list-style: none;
         text-align: center;
+}
+
+li .photogr {
+        background: url('images/contact-me.jpg')  no-repeat;
 }
 
 .skill {
@@ -269,6 +273,7 @@ nav ul li a {
 
 .project-extra {
         background-color: #58b458;
+        display: none;
 }
 
 .project-extra-images {
